@@ -1,0 +1,21 @@
+# Ignore node_modules for both frontend and backend
+client/node_modules
+server/node_modules
+
+# Ignore environment files
+client/.env
+server/.env
+
+# Ignore build files for frontend
+client/build
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
